@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+ 
+    <title>Weather App</title>
+  </head>
+  <body>
+      <div class="app-main" id="app-main">
+          <div class="searchInputBox" id="searchInputBox">
+              <input type="text" placeholder="Enter city name" autocomplete="off" class="input-box" id="input-box"/>
+          </div>
+          <div class="weather-body"  id="weather-body">
+              <div class="location-details"  id="location-details">
+                  <div class="city" id="city">Kathmandu ,NP</div>
+                  <div class="date" id="date">Tuesday 13 July 2021</div>
+                 <img src="https://www.countryflags.io/be/shiny/64.png"alt="country-flag" id="image" class="image"/>
+              </div>
+              <div class="weather-status" id="weather-status">
+                  <div class="temp" id="temp">24&deg;C</div>
+                 <div class="feels-like" id="feels-like">Feels_like:</div> 
+                  <div class="min-max" id="min-max"> min:24&deg;C  max:35&deg;C</div>
+                 <div class="weather" id="weather">Clear</div> 
+                  <div class="wind" id="wind">Wind speed:0</div>
+                  <div class="winddeg" id="winddeg">Wind deg:0</div>
+                  <div class="humid" id="humid">Humidity:0</div>
+                  <div class="pressure" id="pressure">Pressure:0</div> 
+              </div>
+          </div>
+      </div>
+      <script src="./weather.js"></script>
+
+
+  </body>
+</html>
+
+
+

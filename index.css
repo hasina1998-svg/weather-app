@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding:40px 30px 40px 30px;
+    font-weight: bold;
+} 
+.app-main{
+    
+    border-radius:5px;
+    min-height: 100vh;
+    flex-wrap: flex;
+}
+.searchInputBox{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.input-box{
+    font-style: italic;
+    background-color: rgb(252, 224, 229);
+    height:40px;
+    font-size:20px;
+    color:black;
+    }
+
+.weather-body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 233, 240);;
+}
+.location-details{
+    margin-bottom: 30px;
+    padding-left: 25px;
+    
+    
+}
+.city{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.date{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.weather-status{
+    margin-bottom: 30px;
+    padding-left: 25px;
+    font-size: 20px;
+    gap:2rem;
+    gap:2 rem;
+    
+}
+.temp{
+    margin-bottom: 10px;
+}
+.min-max{
+    margin-bottom: 10px;
+
+}
+.feels-like{
+    margin-bottom: 10px;
+
+}
+.weather{
+    margin-bottom: 10px;
+
+}
+.wind{
+    margin-bottom: 10px;
+
+}
+.humid{
+    margin-bottom: 10px;
+    
+
+}
+.winddeg{
+    margin-bottom: 10px;
+
+}
